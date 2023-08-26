@@ -10,4 +10,5 @@ export default defineBuildConfig({
 	alias: {
 		"@/": "src/",
 	},
+	externals: ["@iconify/types", "@iconify/utils", "@formkit/themes"],
 });
