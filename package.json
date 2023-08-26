@@ -1,5 +1,9 @@
 {
 	"name": "@hedger/formkit-iconify-loader",
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	},
 	"type": "module",
 	"version": "0.1.0",
 	"description": "Load Iconify icons in FormKit.",
