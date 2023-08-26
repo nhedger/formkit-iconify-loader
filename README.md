@@ -8,13 +8,13 @@ This package providers a FormKit icon loader for Iconify.
 
 ```bash
 # NPM
-npm install @hedger/nestjs-encryption
+npm install @hedger/formkit-iconify-loader
 
 # Yarn
-yarn add @hedger/nestjs-encryption
+yarn add @hedger/formkit-iconify-loader
 
 # PNPM
-pnpm add @hedger/nestjs-encryption
+pnpm add @hedger/formkit-iconify-loader
 ```
 
 ## Usage
