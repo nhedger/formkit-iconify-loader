@@ -1,7 +1,7 @@
 {
 	"name": "@hedger/formkit-iconify-loader",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Load Iconify icons in FormKit.",
 	"author": {
 		"name": "Nicolas Hedger",
@@ -27,7 +27,9 @@
 	"main": "./dist/index.mjs",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "unbuild",
 		"dev": "unbuild --stub",
