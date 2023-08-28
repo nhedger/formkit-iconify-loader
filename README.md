@@ -50,6 +50,31 @@ inputs, as prefix icons or suffix icons, for example. You can also use the
 </template>
 ```
 
+### Using multiple icon sets
+
+You may reference icons from multiple icon sets in your FormKit inputs. To do so, load all the icon sets you need and pass them to the `createIconifyLoader` function and make
+sure to prefix the icon names with the icon set name.
+
+Here's an example where we load the Heroicons and the Majesticons icon sets.
+
+```ts
+import { icons as heroicons } from "@iconify-json/heroicons";
+import { icons as majesticons } from "@iconify-json/majesticons";
+import type { DefaultConfigOptions } from "@formkit/vue";
+import { createIconifyLoader } from "@hedger/formkit-iconify-loader";
+
+export const config = {
+	iconLoader: createIconifyLoader(heroicons, majesticons),
+} satisfies DefaultConfigOptions;
+```
+
+```html
+<template>
+	<FormKit type="email" prefix-icon="heroicons:envelope" />
+	<FormKitIcon icon="majesticons:academic-cap" />
+</template>
+```
+
 ## License
 
 Copyright © 2023, [Nicolas Hedger](https://github.com/nhedger). Released under the [MIT License](LICENSE.md).
