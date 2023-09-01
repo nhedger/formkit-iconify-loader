@@ -4,3 +4,5 @@ pre-commit:
       run: pnpm exec -- biome format --write . && git add {staged_files}
     lint:
       run: pnpm exec -- biome lint .
+    check:
+      run: pnpm exec -- biome check .
