@@ -1,6 +1,6 @@
 import type { FormKitIconLoader } from "@formkit/themes";
 import type { IconifyJSON } from "@iconify/types";
-import { getIconData, iconToSVG, iconToHTML, replaceIDs } from "@iconify/utils";
+import { getIconData, iconToHTML, iconToSVG, replaceIDs } from "@iconify/utils";
 
 export const createIconifyLoader = (
 	icons: IconifyJSON,
