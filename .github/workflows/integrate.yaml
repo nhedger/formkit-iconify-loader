@@ -16,8 +16,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Set up
         uses: ./.github/actions/setup
-      - name: Run Rome
-        run: pnpm exec -- rome ci .
+      - name: Run Biome
+        run: pnpm exec -- biome ci .
 
   build:
     name: Build
