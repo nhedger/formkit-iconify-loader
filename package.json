@@ -31,13 +31,12 @@
 	"main": "./dist/index.mjs",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"build": "unbuild",
 		"dev": "unbuild --stub",
 		"format": "biome format --write .",
+		"check": "biome check .",
 		"lint": "biome lint .",
 		"test": "vitest",
 		"typecheck": "tsc --noEmit",
