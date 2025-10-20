@@ -47,7 +47,7 @@
 		"@formkit/themes": "^1.0.0",
 		"@iconify/types": "^2.0.0",
 		"@iconify/utils": "^2.1.9",
-		"lefthook": "^1.4.9",
+		"lefthook": "^1.13.6",
 		"typescript": "^5.1.6",
 		"unbuild": "^1.2.1",
 		"vitest": "^0.34.2"
