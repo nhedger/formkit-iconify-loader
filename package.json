@@ -48,7 +48,7 @@
 		"@iconify/types": "^2.0.0",
 		"@iconify/utils": "^2.1.9",
 		"lefthook": "^1.4.9",
-		"typescript": "^5.1.6",
+		"typescript": "^5.9.3",
 		"unbuild": "^1.2.1",
 		"vitest": "^0.34.2"
 	},
